@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="../script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/><link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar! Here you can plan out your day!</p>
+      <p id="currentDay" class="lead"></p>
+      <script>
+      var d = new Date();
+      document.getElementById("currentDay").innerHTML = d;
+      </script></p>
+    </header>
+    <script type="text/javascript"></script>
+    <div class="container">
+    
+    <div class="list-group">
+    
+        <a href="#" class="list-group-item list-group-item-action">9AM</a>
+        <a href="#" class="list-group-item list-group-item-action">10AM</a>
+        <a href="#" class="list-group-item list-group-item-action">11AM</a>
+        <a href="#" class="list-group-item list-group-item-action">12AM</a>
+        <a href="#" class="list-group-item list-group-item-action">1PM</a>
+        <a href="#" class="list-group-item list-group-item-action">2PM</a>
+        <a href="#" class="list-group-item list-group-item-action">3PM</a>
+        <a href="#" class="list-group-item list-group-item-action">4PM</a>
+        <a href="#" class="list-group-item list-group-item-action">5PM</a>
+        
+
+      </div>
+    </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  </body>
+</html>
